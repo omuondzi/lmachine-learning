@@ -225,4 +225,4 @@ for name, acc in sorted(results.items(), key=lambda x: x[1], reverse=True):
     bar = "█" * int(acc * 40)
     print(f"  {name:<30}  {acc*100:6.2f} %  {bar}")
 print("=" * 60)
-print("\nDone! All plots saved to the working directory.")
+print("\nDone! All plots saved to the working directory.") 
